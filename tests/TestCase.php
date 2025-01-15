@@ -4,13 +4,11 @@ namespace Tests;
 
 use Illuminate\Foundation\Testing\Concerns\InteractsWithDatabase;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
-use Illuminate\Foundation\Testing\RefreshDatabase;
 use Orchestra\Testbench\TestCase as Orchestra;
 
 abstract class TestCase extends Orchestra
 {
     use InteractsWithDatabase;
-    use RefreshDatabase;
     use DatabaseMigrations;
 
     /**
