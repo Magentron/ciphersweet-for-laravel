@@ -1,11 +1,14 @@
 {
-    "name": "bjorn-voesten/ciphersweet-for-laravel",
-    "description": "",
+    "name": "magentron/ciphersweet-for-laravel",
+    "description": "CipherSweet for Laravel (forked from bjornvoesten/ciphersweet-for-laravel)",
     "license": "MIT",
     "authors": [
         {
             "name": "Bjorn Voesten",
             "email": "bjorn-voesten@live.nl"
+        },
+        {
+            "name": "Lopoi"
         }
     ],
     "autoload": {
@@ -19,6 +22,9 @@
             "Tests\\": "tests/"
         }
     },
+    "replaces": {
+		"bjornvoesten/ciphersweet-for-laravel": "1.4.0"
+	},
     "require": {
         "php": "^7.2.5|^8.0|^8.1|^8.2",
         "illuminate/config": "^7.0|^8.0|^9.0|^10.0|^11.0",
