@@ -1,3 +1,5 @@
+(forked from: [bjornvoesten/ciphersweet-for-laravel](https://github.com/bjornvoesten/ciphersweet-for-laravel))
+
 # CipherSweet for Laravel
 
 A Laravel implementation of [Paragon Initiative Enterprises CipherSweet](https://ciphersweet.paragonie.com) searchable
