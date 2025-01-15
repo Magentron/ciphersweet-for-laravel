@@ -23,7 +23,7 @@
         }
     },
     "replace": {
-		"bjornvoesten/ciphersweet-for-laravel": "<=1.4.0"
+		"bjorn-voesten/ciphersweet-for-laravel": "<=1.4.0"
 	},
     "require": {
         "php": "^7.2.5|^8.0|^8.1|^8.2",
